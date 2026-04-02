@@ -155,6 +155,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  ensureDataFile();
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
